@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/lightskyblue"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/Tv_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/name_tv1"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:paddingLeft="20dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+
+        <Spinner
+            android:id="@+id/sp1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textColor="@color/violet" />
+        <Spinner
+            android:layout_marginLeft="40dp"
+            android:id="@+id/sp2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textColor="@color/violet" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Et_input"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:textSize="15sp"
+        android:textColor="@color/blueviolet"
+        android:background="@drawable/input_background"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Voice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="语音"
+            android:background="@color/white"
+            android:textColor="@color/violet"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="@string/name_translate"
+            android:textColor="@color/violet" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/name_tlResult"/>
+
+        <TextView
+            android:id="@+id/Tv_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/name_voiceResult"/>
+
+        <TextView
+            android:id="@+id/Tv_vout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="360dp"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/btn_note"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/name_btnNote"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:background="@color/white"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btn_user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/name_btnUser"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

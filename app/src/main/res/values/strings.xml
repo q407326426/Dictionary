@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">智能语音词典</string>
+    <string name="name_tv1">请选择输入语种</string>
+    <string name="name_ipbtn1">输入语种</string>
+    <string name="name_ipbtn2">输出语种</string>
+    <string name="name_et1">您好！请输入需要翻译的文字.</string>
+    <string name="name_translate">翻译</string>
+    <string name="name_tlResult">翻译结果：</string>\
+    <string name="name_voiceResult">语音识别结果：</string>
+    <string name="name_btnNote">单词本</string>
+    <string name="name_btnUser">个人中心</string>
+</resources>
